@@ -1,0 +1,13 @@
+---
+database:
+  host: pghostname
+  database: pgdatabase
+  user: pguser
+  password: pgpass
+sensors:
+  thermister:
+    enabled: true
+    offset: 0
+  current-transducer:
+    enabled: true
+    max-amps: 30
